@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">JanKenPon</string>
+    <string name="rock">グー</string>
+    <string name="scissors">チョキ</string>
+    <string name="paper">パー</string>
+    <string name="you">あなた</string>
+    <string name="cpu">CPU</string>
+    <string name="result">結果</string>
+    <string name="resultImageDescription">じゃんけんの結果画像</string>
+    <string name="you_select">"あなたは%1$sを選択しました。"</string>
+    <string name="cpu_select">"CPUが%1$sを出しました。"</string>
+    <string name="judge_result">"結果：%1$s！"</string>
 </resources>

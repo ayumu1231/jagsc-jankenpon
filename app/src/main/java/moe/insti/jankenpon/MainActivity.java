@@ -42,9 +42,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         JanKenPon = new JanKenPon();
 
         result = JanKenPon.JanKenPon(userAction);
-        textUser.setText("あなたは" + userAction + "を選択しました。");
-        textCpu.setText("CPUが" + JanKenPon.randomAction + "を出しました。");
-        textResult.setText("結果："+ result + "！");
+        textUser.setText(getString(R.string.you_select,userAction));
+        textCpu.setText(getString(R.string.cpu_select,JanKenPon.randomAction));
+        textResult.setText(getString(R.string.judge_result,result));
 
         // 結果の画像を設定する
         switch (JanKenPon.randomAction){
